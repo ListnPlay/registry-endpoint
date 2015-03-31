@@ -12,7 +12,7 @@ function extend(a, b) {
   return a;
 }
 
-var defaultRepo = 'https://github.com/jspm/registry.git';
+var defaultRepo = 'https://github.com/ListnPlay/registry.git';
 
 var registry = module.exports = function registry(options, ui) {
   this.ui = ui;
